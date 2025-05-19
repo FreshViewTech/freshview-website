@@ -2,29 +2,30 @@ body {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
-    color: #222;
     background-color: #f9f9f9;
+    color: #1c1c1c;
   }
 
   .container {
-    max-width: 900px;
+    max-width: 960px;
     margin: auto;
     padding: 2rem;
   }
 
   header {
-    background: #ffffff;
-    border-bottom: 1px solid #e0e0e0;
+    background-color: white;
+    border-bottom: 1px solid #e2e2e2;
   }
 
   header .container {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
   }
 
   .logo {
-    height: 48px;
+    height: 64px;
   }
 
   nav a {
@@ -32,36 +33,61 @@ body {
     text-decoration: none;
     color: #333;
     font-weight: 600;
+    transition: color 0.3s ease;
+  }
+
+  nav a:hover {
+    color: #00776b;
   }
 
   .hero {
+    background-color: #e9f4f1;
     text-align: center;
     padding: 80px 20px;
-    background-color: #e9f4f1;
+  }
+
+  .hero img.logo {
+    height: 100px;
+    margin-bottom: 1rem;
   }
 
   .hero h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 1rem;
   }
 
-  .hero .cta {
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .cta {
     display: inline-block;
-    margin-top: 1rem;
     padding: 0.75rem 1.5rem;
     background-color: #00776b;
-    color: #fff;
+    color: white;
     text-decoration: none;
-    border-radius: 6px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+  }
+
+  .cta:hover {
+    background-color: #005f57;
   }
 
   section {
-    padding: 60px 20px;
+    background-color: white;
+    margin: 2rem auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    padding: 3rem 2rem;
   }
 
   h2 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-bottom: 1rem;
+    color: #00776b;
   }
 
   form {
@@ -72,24 +98,31 @@ body {
   form input,
   form textarea {
     padding: 0.75rem;
-    margin-bottom: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
     font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 1rem;
   }
 
   form button {
-    padding: 0.75rem;
     background-color: #00776b;
     color: white;
-    border: none;
+    padding: 0.75rem;
     font-weight: bold;
-    border-radius: 4px;
+    border: none;
+    border-radius: 6px;
     cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  form button:hover {
+    background-color: #005f57;
   }
 
   footer {
     text-align: center;
     padding: 2rem;
     background-color: #f0f0f0;
+    font-size: 0.9rem;
+    color: #666;
   }
