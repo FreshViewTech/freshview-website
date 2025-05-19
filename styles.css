@@ -209,3 +209,10 @@ body {
     font-size: 0.9rem;
     color: #666666;
   }
+  .accent-divider {
+    border: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #00776b 0%, #b4e7dd 100%);
+    margin: 2.5rem 0 2rem 0;
+    border-radius: 2px;
+  }
