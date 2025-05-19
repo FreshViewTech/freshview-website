@@ -1,0 +1,95 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #222;
+    background-color: #f9f9f9;
+  }
+
+  .container {
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem;
+  }
+
+  header {
+    background: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    height: 48px;
+  }
+
+  nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+  }
+
+  .hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #e9f4f1;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero .cta {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #00776b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+  }
+
+  section {
+    padding: 60px 20px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  form input,
+  form textarea {
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+
+  form button {
+    padding: 0.75rem;
+    background-color: #00776b;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f0f0f0;
+  }
