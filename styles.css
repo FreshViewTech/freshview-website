@@ -25,7 +25,7 @@ body {
   }
 
   .header-inner {
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
