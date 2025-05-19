@@ -32,12 +32,12 @@ body {
   }
 
   .logo-header {
-    height: 48px;
+    height: 72px;
   }
 
   header nav {
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
   }
 
   header nav a {
@@ -76,6 +76,7 @@ body {
 
   .hero-icon {
     height: 96px;
+    width: auto;
   }
 
   .brand-text h1 {
