@@ -1,3 +1,4 @@
+/* General Reset */
 body {
     font-family: 'Inter', sans-serif;
     margin: 0;
@@ -12,6 +13,7 @@ body {
     padding: 2rem;
   }
 
+  /* Header */
   header {
     background-color: white;
     border-bottom: 1px solid #e2e2e2;
@@ -25,7 +27,7 @@ body {
   }
 
   .logo {
-    height: 64px;
+    height: 48px;
   }
 
   nav a {
@@ -40,25 +42,49 @@ body {
     color: #00776b;
   }
 
+  /* Hero Section */
   .hero {
     background-color: #e9f4f1;
-    text-align: center;
     padding: 80px 20px;
+    text-align: center;
   }
 
-  .hero img.logo {
-    height: 100px;
-    margin-bottom: 1rem;
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
-  .hero h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 1.5rem;
   }
 
-  .hero p {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
+  .hero-logo {
+    height: 80px;
+  }
+
+  .brand-text h1 {
+    font-size: 2rem;
+    margin: 0;
+    color: #1c1c1c;
+  }
+
+  .brand-text p {
+    font-size: 1rem;
+    color: #00776b;
+    font-weight: 600;
+    margin: 0.5rem 0 0;
+  }
+
+  .subtext {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
   }
 
   .cta {
@@ -76,6 +102,7 @@ body {
     background-color: #005f57;
   }
 
+  /* Sections */
   section {
     background-color: white;
     margin: 2rem auto;
@@ -90,6 +117,7 @@ body {
     color: #00776b;
   }
 
+  /* Contact Form */
   form {
     display: flex;
     flex-direction: column;
@@ -119,6 +147,7 @@ body {
     background-color: #005f57;
   }
 
+  /* Footer */
   footer {
     text-align: center;
     padding: 2rem;
